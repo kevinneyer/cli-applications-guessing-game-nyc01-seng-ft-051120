@@ -19,6 +19,6 @@ question
   elsif get_input == "exit"
     return "Goodbye"
   else
-    return "Sorry. The computer guessed #{number}"
+    return "Sorry. The computer guessed #{answer}"
   end 
 end 
