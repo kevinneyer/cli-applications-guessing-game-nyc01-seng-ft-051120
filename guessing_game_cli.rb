@@ -8,7 +8,7 @@ def question
 end 
 
 def get_input
-  gets.chomp!
+  gets.chomp
 end 
 
 def run_guessing_game
