@@ -11,7 +11,6 @@ def get_input
 end 
 
 def run_guessing_game
- question
   
   if get_input == answer
     return "You guessed the correct number"
