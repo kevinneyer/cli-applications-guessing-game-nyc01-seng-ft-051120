@@ -1,6 +1,5 @@
 def answer
-  number = rand(1..6)
-  number
+  rand(1..6)
 end 
 
 def question 
@@ -12,7 +11,7 @@ def get_input
 end 
 
 def run_guessing_game
-question
+ question
   
   if get_input == answer
     return "You guessed the correct number"
