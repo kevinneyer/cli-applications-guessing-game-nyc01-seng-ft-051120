@@ -4,7 +4,7 @@ def run_guessing_game
   guess = gets.chomp!
   if guess == number
     return "You guessed the correct number"
-  else if guess == "exit"
+  elsif guess == "exit"
     return "Goodbye"
   else
     return "Sorry. The computer guessed #{number}"
