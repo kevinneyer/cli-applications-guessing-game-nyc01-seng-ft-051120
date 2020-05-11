@@ -8,7 +8,7 @@ def question
 end 
 
 def get_input
-  guess = gets.chomp!
+  gets.chomp!
 end 
 
 def run_guessing_game
@@ -16,7 +16,7 @@ question
   
   if get_input == answer
     return "You guessed the correct number"
-  elsif guess == "exit"
+  elsif get_input == "exit"
     return "Goodbye"
   else
     return "Sorry. The computer guessed #{number}"
