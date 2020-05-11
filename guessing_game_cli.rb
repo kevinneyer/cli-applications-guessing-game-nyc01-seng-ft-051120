@@ -1,5 +1,5 @@
 def pose_question
-  puts"Pick a number between 1-6"
+  puts "Pick a number between 1-6"
 end
 
 def run_guessing_game
