@@ -12,10 +12,9 @@ def get_input
 end 
 
 def run_guessing_game
-  answer
-  question
+question
   
-  if get == guess
+  if guess == answer
     return "You guessed the correct number"
   elsif guess == "exit"
     return "Goodbye"
