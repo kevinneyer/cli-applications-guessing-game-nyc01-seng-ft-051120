@@ -14,7 +14,7 @@ end
 def run_guessing_game
 question
   
-  if guess == answer
+  if get_input == answer
     return "You guessed the correct number"
   elsif guess == "exit"
     return "Goodbye"
