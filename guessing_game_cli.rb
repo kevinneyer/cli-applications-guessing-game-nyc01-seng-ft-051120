@@ -1,6 +1,6 @@
 def run_guessing_game
   number = rand(1..6)
-  if gets.chomp == answer
+  if gets.chomp == number
     return "You guessed the correct number"
   elsif gets.chomp== "exit"
     return "Goodbye"
