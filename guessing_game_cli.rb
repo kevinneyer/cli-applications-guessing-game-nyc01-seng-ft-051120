@@ -3,7 +3,6 @@ def pose_question
 end
 
 def run_guessing_game
-  pose_question
   input = gets.chomp 
   number = rand(1..6)
   
